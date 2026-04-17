@@ -14,21 +14,13 @@ This is the TWRP device tree for the **LG G3 Beat (jag3gss)**, based on Android 
 | **Display** | 720 x 1280 pixels, 5.0 inches |
 | **Architecture** | armeabi-v7a |
 
-## How to Build
+---------------------------------------------
 
-To initialize your local repository and build TWRP, follow these steps:
+##Special Note for LG Devices
 
-### 1. Initialize Repo
-```bash
-repo init -u [https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git](https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git) -b twrp-7.1
-`
-```
-
-
-Special Note for LG Devices
 LG G3 Beat requires a "bumped" recovery image to bypass the locked bootloader. Ensure the kernel is properly signed/bumped after the build process if you encounter secure boot errors.
 
-Credits
+##Credits
 
 twrpdtgen - For the initial tree generation.
 
