@@ -16,11 +16,11 @@ This is the TWRP device tree for the **LG G3 Beat (jag3gss)**, based on Android 
 
 ---------------------------------------------
 
-###Special Note for LG Devices
+## Special Note for LG Devices
 
 LG G3 Beat requires a "bumped" recovery image to bypass the locked bootloader. Ensure the kernel is properly signed/bumped after the build process if you encounter secure boot errors.
 
-###Credits
+## Credits
 
 twrpdtgen - For the initial tree generation.
 
